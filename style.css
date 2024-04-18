@@ -1,0 +1,94 @@
+/* BODY */
+body {
+    background-color: #c45a5a;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    width: 180px;
+    height: 180px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.button {
+    margin-left: 10px;
+    height: 25px;
+}
+
+
+
+
+
+/* BANNIERE */
+
+.img-banniere{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/* PRESENTATION DU ZOO */
+.presentation{
+    display: flex;
+    width: 60%;
+    margin: 50px;
+    text-align: justify;
+}
+
+/* PRESENTATION DES ANIMAUX */
+.presentation-animaux {
+    text-align: center; 
+}
+
+.img-animaux {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-animaux > div {
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+}
+
+.img-animaux img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.animaux, .habitat, .service{
+    width: 200px;
+    height: auto;
+}
+
+
+
+
+
